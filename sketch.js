@@ -57,7 +57,11 @@ text("Press Space to get a 2nd chance to play",50,50);
 image(boy,200,340,200,300);  
 stone.display();
   //mango1.display();
-  mango2.display();
+
+
+  ground.display();
+  tree.display();
+	  mango2.display();
   mango3.display();
   mango4.display();
   mango5.display();
@@ -66,9 +70,6 @@ stone.display();
   mango8.display();
   mango9.display();
   mango10.display();
-
-  ground.display();
-  tree.display();
   launcherObject.display();
   detectionCollision(stone,mango2);
   detectionCollision(stone,mango3);
